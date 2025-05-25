@@ -81,7 +81,7 @@ $tns =  "(DESCRIPTION = (ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = db-or
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => $tns,
-	'username' => 'up_portal',
+	'username' => 'fyp',
 	'password' => 'mypassword',
 	'dbdriver' => 'oci8',
 	'dbprefix' => '',

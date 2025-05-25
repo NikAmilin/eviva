@@ -35,8 +35,13 @@ class Dashboard extends Admin_Controller {
 	
 	function index()
 	{		
-		echo "Welcome to Dashboard Controller";
-		//echo "<br>sess=>".$_SESSION["uid"];
+		echo "Welcome to Dashboard Controller <br><br>";
+
+        $id_staf = strtoupper ($_SESSION["UID"]);
+        $nama_ptj = strtoupper($_SESSION["ptj"]);
+
+		echo "<br>Login as=>".$id_staf;
+        echo "<br>Ptj name as=>".$nama_ptj;
 	}
 
 	function baki()

@@ -31,31 +31,31 @@
 		<li class="sidebar-item">
 		  <a class="sidebar-link has-arrow" href="javascript:void(0)" aria-expanded="false">
 			<iconify-icon icon="solar:document-linear" class="aside-icon"></iconify-icon>
-			<span class="hide-menu">Setup</span>
+			<span class="hide-menu">Submission</span>
 		  </a>
 		  <ul aria-expanded="false" class="collapse first-level">
 			<li class="sidebar-item">
 			  <a href="<?= base_url()?>setup/ccc/index" class="sidebar-link">
 				<iconify-icon icon="solar:stop-circle-line-duotone" class="sidebar-icon"></iconify-icon>
-				<span class="hide-menu">Setup Fakulti/Ptj</span>
+				<span class="hide-menu">Pengesahan Indeks Kesamaan Tesis</span>
 			  </a>
 			</li>
 			<li class="sidebar-item">
 			  <a href="<?= base_url()?>setup/ccc/setup_admin" class="sidebar-link">
 				<iconify-icon icon="solar:stop-circle-line-duotone" class="sidebar-icon"></iconify-icon>
-				<span class="hide-menu">Setup Admin Ptj</span>
+				<span class="hide-menu">Pengesahan Pembetulan Tesis</span>
 			  </a>
 			</li>
 			<li class="sidebar-item">
 			  <a href="<?= base_url()?>setup/ccc/setup_dekan" class="sidebar-link">
 				<iconify-icon icon="solar:stop-circle-line-duotone" class="sidebar-icon"></iconify-icon>
-				<span class="hide-menu">Setup Dekan</span>
+				<span class="hide-menu"></span>
 			  </a>
 			</li>
 			<li class="sidebar-item">
 			  <a href="<?= base_url()?>setup/ccc/setup_jenis_tuntutan" class="sidebar-link">
 				<iconify-icon icon="solar:stop-circle-line-duotone" class="sidebar-icon"></iconify-icon>
-				<span class="hide-menu">Setup Jenis Tuntutan</span>
+				<span class="hide-menu"></span>
 			  </a>
 			</li>
 			
@@ -64,7 +64,7 @@
 		<li class="sidebar-item">
 		  <a class="sidebar-link has-arrow" href="javascript:void(0)" aria-expanded="false">
 			<iconify-icon icon="solar:document-linear" class="aside-icon"></iconify-icon>
-			<span class="hide-menu">Admin</span>
+			<span class="hide-menu"></span>
 		  </a>
 		  <ul aria-expanded="false" class="collapse first-level">
 			<li class="sidebar-item">
