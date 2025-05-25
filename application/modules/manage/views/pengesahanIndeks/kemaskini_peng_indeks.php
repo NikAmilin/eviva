@@ -10,7 +10,7 @@
 <div class="container my-5">
     <h4 class="text-center mb-4">Kemaskini Pengesahan Indeks Kesamaan Tesis</h4>
 
-    <form method="POST" action="<?= base_url('PengesahanIndeks/save_new_student') ?>">
+    <form method="POST" action="<?= base_url('pengesahanIndeks/save_peng_indeks') ?>">
 
         <!-- Student Details -->
         <div class="mb-3">
