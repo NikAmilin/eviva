@@ -28,7 +28,7 @@ class Dashboard extends Admin_Controller {
         parent::__construct();
 		$this->lang->load('ccc');
 		$this->load->model('ccc_model', 'im'); 			
-		session_start();
+		//session_start();
     }
 
     
